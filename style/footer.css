@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.footer {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.subscribe {
+    background: white;
+    border-radius: 10px;
+    padding: 60px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.subscribe__content h2 {
+    font-size: 35px;
+    color: #0B132A;
+    margin-bottom: 20px;
+    font-family: Rubik;
+font-size: 35px;
+font-weight: 500;
+}
+
+.subscribe__content p {
+    color: #4F5665;
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+}
+
+.subscribe__button {
+    background: #F53855;
+    color: white;
+    border: none;
+    padding: 17px 65px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(245, 56, 85, 0.35);
+    transition: all 0.3s ease;
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 700;
+}
+
+.subscribe__button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px rgba(245, 56, 85, 0.45);
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.footer__company {
+    max-width: 340px;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.footer__logo img {
+    height: 30px;
+}
+
+.footer__company p {
+    color: #4F5665;
+    margin-bottom: 30px;
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -20px;
+}
+
+.footer__copyright {
+    color: #AFB5C0;
+    font-size: 14px;
+}
+
+.footer__links h3 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;   
+    margin-bottom: 20px;
+}
+
+.footer__links ul {
+    list-style: none;
+}
+
+.footer__links li {
+    margin-bottom: 10px;
+}
+
+.footer__links a {
+    color: #4F5665;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+}
+
+.footer__links a:hover {
+    color: #F53855;
+}
+
+@media (max-width: 768px) {
+    .subscribe {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .subscribe__content {
+        margin-bottom: 30px;
+    }
+
+    .footer__content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer__company {
+        margin: 0 auto;
+    }
+
+    .footer__logo {
+        justify-content: center;
+    }
+
+    .footer__social {
+        justify-content: center;
+    }
+}

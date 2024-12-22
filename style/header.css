@@ -1,0 +1,200 @@
+@import url(./main.css);
+@import url(./footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-right: auto;
+   margin-left: auto;
+   width: 1200px;
+}
+.header-title{
+    font-family:Rubik;
+font-size: 20px;
+font-weight: 500;
+line-height: 23.7px;
+text-align: left;
+color: #0B132A;
+}
+.vpn{
+    font-family: Rubik;
+font-size: 20px;
+font-weight: 700;
+line-height: 23.7px;
+text-align: left;
+color: #0B132A;
+}
+.header-div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+.header-p{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.96px;
+text-align: left;
+color: #4F5665;
+}
+.header-p:hover{
+    color: #1b1b1b;
+}
+.header-div2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    left: 250px;
+}
+.header_p2{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.96px;
+text-align: left;
+color: #0B132A;
+}
+.header_p2:hover{
+    color: #F53855;
+}
+.header-button{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.96px;
+text-align: left;
+background-color: white;
+color: #F53855;
+border: 1px solid #F53855;
+width: 150px;
+height: 45px;
+border-radius: 50px;
+text-align: center;
+}
+.header-button:hover{
+    background-color: #f70529;
+    color: white;
+}
+.header-div3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    left: 355px;
+}
+.section-p{
+    font-family: Rubik;
+font-size: 50px;
+font-weight: 500;
+line-height: 70px;
+width: 555px;
+height: 140px;
+color: #0B132A;
+position: relative;
+top: 150px;
+}
+.section-span{
+    font-family: Rubik;
+font-size: 50px;
+font-weight: 700;
+line-height: 70px;
+color: #0B132A;
+}
+.section-p2{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+width: 555px;
+height: 60px;
+color: #4F5665;
+position: relative;
+top: 170px;
+}
+.section-button{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    background-color:#f70529;
+    color: white;
+    border: 1px solid #f70529;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.section-button:hover{
+    background-color: #F53855;
+    color: white;
+    border: 1px solid #F53855;
+    box-shadow: 2px 2px 5px #F53855;
+}
+.header-section{
+    display: flex;
+    gap: 70px;
+}
+.section-img{
+    position: relative;
+    top: 120px;
+    width: 611.24px;
+    height: 382.44px;
+}
+.user{
+    position: relative;
+    top: 60px;
+    width: 70px;
+    height: 70px;
+    left: 120px;
+}
+.rectangle-p{
+    font-family: Rubik;
+font-size: 25px;
+font-weight: 700;
+color: #0B132A;
+}
+.rectangle-p2{
+    font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+color: #4F5665;
+margin-top: 10px;
+}
+.rectangle-div{
+    display: flex;
+}
+.divcha{
+    position: relative;
+    top: 60px;
+    left: 160px;
+}
+.chiziq{
+    width: 0px;
+height: 125.57px;
+border: 2px solid #EEEFF2;
+position: relative;
+top: 30px;
+left: 150px;
+}
+.rectangle{
+    display: flex;
+    gap: 120px;
+    width: 1200px;
+    height: 200px;
+    border-radius: 10px;
+position: relative;
+background-color: #FFFFFF;
+box-shadow: 3px 3px 3px 3px #d8d7d7;
+position: relative;
+top: 220px;
+
+}
