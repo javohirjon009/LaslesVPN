@@ -1,0 +1,65 @@
+@media(max-width:320px){
+    .home-header{
+        align-items: center;
+    }
+    body{
+        padding: 0 12px;
+    }
+    .header-title{
+        font-size: 16px;
+     position: relative;
+     left: 15px;
+     top: 5px;
+    }
+    .vpn{
+        font-size: 17px;
+    }
+    .header-section{
+        width: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-div{
+     width: 200px;
+     gap: 0;
+
+    }
+    .header-div2{
+   gap: 20px;
+ align-items: center;
+       }
+       .kerak{
+        display: none;
+       }
+       .header-section{
+        display: block;
+        align-items: center;
+    
+       }
+       .section-img{
+        margin-top: 200px;
+        align-items: center;
+       }
+.section-p{
+    font-size: 16px;
+    width: 300px;
+    line-height: 0;
+    top: 100px;
+}
+    .section-p2{
+    font-size: 14px;
+    top: 20px;
+    width: 270px;
+    }
+    .section-span{
+        font-size: 17px;
+    }
+
+    .section-div{
+        width: 10px;
+    }
+    .section-button{
+        top: 80px;
+        align-items: center;
+    }
+}
